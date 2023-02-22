@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.time.LocalDateTime;
+
 @SpringBootApplication
 @RestController
 public class CicdJavaApplication {
@@ -16,6 +18,11 @@ public class CicdJavaApplication {
     @GetMapping("/welcome")
     public String message() {
         return "Welcome to java!";
+    }
+
+    @GetMapping("/time")
+    public String time() {
+        return LocalDateTime.now().toString();
     }
 
 }

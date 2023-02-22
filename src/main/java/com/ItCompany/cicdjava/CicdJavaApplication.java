@@ -30,4 +30,10 @@ public class CicdJavaApplication {
         return "Armenia/Gyumri";
     }
 
+    @GetMapping("/address")
+    public String address() {
+        return "Armenia/Gyumri/mush2";
+    }
+
+
 }

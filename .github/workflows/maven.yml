@@ -10,7 +10,7 @@ name: project cicd flow
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master" , "12345" ]
   pull_request:
     branches: [ "master" ]
 

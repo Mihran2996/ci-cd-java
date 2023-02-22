@@ -25,4 +25,9 @@ public class CicdJavaApplication {
         return LocalDateTime.now().toString();
     }
 
+    @GetMapping("/location")
+    public String location() {
+        return "Armenia/Gyumri";
+    }
+
 }

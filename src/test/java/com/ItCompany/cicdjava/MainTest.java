@@ -14,7 +14,7 @@ class MainTest {
 
     @Test
     public void message_success() {
-        String excepted = "hello";
+        String excepted = "hell";
 
         String actual = main.message();
 

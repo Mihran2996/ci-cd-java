@@ -14,7 +14,9 @@
 	<name>cicd-java</name>
 	<description>cicd-with-java</description>
 	<properties>
-		<java.version>8</java.version>
+		<java.version>19</java.version>
+		<maven.compiler.source>19</maven.compiler.source>
+		<maven.compiler.target>19</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -41,7 +43,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>java-cicd</finalName>
+<!--		<finalName>java-cicd</finalName>-->
 	</build>
 
 </project>

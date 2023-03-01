@@ -35,5 +35,4 @@ public class CicdJavaApplication {
         return "Armenia/Gyumri/mush/2";
     }
 
-
 }

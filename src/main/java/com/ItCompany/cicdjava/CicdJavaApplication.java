@@ -32,7 +32,7 @@ public class CicdJavaApplication {
 
     @GetMapping("/address")
     public String address() {
-        return "Armenia/Gyumri/mush2";
+        return "Armenia/Gyumri/mush/2";
     }
 
 

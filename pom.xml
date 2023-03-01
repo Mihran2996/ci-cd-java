@@ -14,9 +14,7 @@
 	<name>cicd-java</name>
 	<description>cicd-with-java</description>
 	<properties>
-		<java.version>19</java.version>
-		<maven.compiler.source>19</maven.compiler.source>
-		<maven.compiler.target>19</maven.compiler.target>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
